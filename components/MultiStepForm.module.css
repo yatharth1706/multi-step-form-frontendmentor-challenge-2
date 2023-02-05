@@ -1,0 +1,53 @@
+.parent {
+  width: 100%;
+}
+
+.formcard {
+  margin: 0px auto;
+  width: 800px;
+  min-width: 400px;
+  display: flex;
+  box-shadow: 5px 5px 20px 5px #cec8c8;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.sidebarleft {
+  width: 35%;
+  height: 100%;
+}
+
+.sidebarleft {
+  width: 65%;
+  height: 100%;
+  position: relative;
+}
+
+.stepCover {
+  position: absolute;
+  top: 5%;
+  left: 8%;
+}
+
+.step {
+  display: flex;
+  color: white;
+}
+
+.roundedCircle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stepDetails {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
